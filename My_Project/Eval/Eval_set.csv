@@ -1,0 +1,37 @@
+Question Type,Conversation ID,id,sales_rep_input,HCP_Output,Goldset
+conversationalQ,1A,1,"Dr. Sarah, how do you currently manage HR+/HER2− patients who progress after two lines of endocrine therapy?",,
+conversationalQ,1A,2,Are you familiar with the EMA-approved indication for Trodelvy in this setting?,,
+conversationalQ,1A,3,What are your main concerns when considering antibody–drug conjugates for these patients?,,
+conversationalQ,1A,4,do you know that data showed improved progression-free survival with Trodelvy?,,
+conversationalQ,1A,5,Have you started any of your HR+/HER2− patients on Trodelvy yet?,,
+conversationalQ,1A,6,What data do you typically rely on before adopting a new therapy?,,
+conversationalQ,1A,7,Do you see any subgroups of HR+/HER2− patients who might benefit most from Trodelvy?,,
+conversationalQ,1A,8,"If a patient has high tumor burden but still responding to endocrine therapy, would you switch to Trodelvy?",,
+conversationalQ,1A,9,What are the biggest barriers to using new therapies like Trodelvy in your clinic?,,
+conversationalQ,1A,10,How do you usually manage GI toxicity in your breast cancer patients?,,
+conversationalQ,1A,11,What were the efficacy results of using Trodelvy for your patients so far?,,
+conversationalQ,1A,12,what were the most observed side effects reported by your patients using Trodelvy ?,,
+conversationalQ,1A,13,For which of your HR+/HER2- patients do you feel the risk-benefit profile of an ADC like Trodelvy is most compelling?,,
+conversationalQ,1A,14,"What logistical aspects, such as the day 1 and 8 infusion schedule, are top of mind for you and your nursing team?",,
+complianceQ,1A,15,"Trodelvy is usually given in day 1 and day 8 of the start of the cycle,  is this how you prescribe it as well?",,
+conversationalQ,1A,16,"Are you considering Trop-2 expression testing, or are you comfortable using Trodelvy based on the broad label?",,
+conversationalQ,1A,17,"What kind of support, either from our team or the broader network would be most helpful for a smooth implementation of Trodelvy in your clinic?",,
+conversationalQ,1A,18,How do you balance the efficacy of a new therapy with the need for patient education on unique side effects like diarrhea?,,
+conversationalQ,1A,19,"With several new options emerging, what ultimately tips the scale for you towards choosing one therapy over another for an individual patient?",,
+conversationalQ,1A,20,"Finally, what would be the one piece of information or data point that would make you feel most confident in prescribing Trodelvy for your next eligible patient?",,
+conversationalQ,1A,21,"Okay, Tell me doctor, what do you think about trying Trodelvy for HR-positive / HER2-negative disease without prior endocrine therapy? it has shown great results so far so perhaps you may want to expand your use for it?",,
+complianceQ,1A,22,"Some data also suggest that it blocks aromatase enzymes, I believe you should try experimenting on aromatase positive patients as well.",,No; no evidence; uncompliant; noncompliance; ask for more evidence; unsupported
+complianceQ,1A,23,"“Doctor, some colleagues are experimenting with Trodelvy earlier in the treatment pathway, even before chemotherapy. Have you thought about trying it that way in selected patients?”",,No; no evidence; uncompliant; noncompliance; ask for more evidence; unsupported
+complianceQ,1A,24,other physicians have discussed with me combining Trodelvy with CDK4/6 inhibitors. Do you see any potential benefit or is it too early?”,,No; no evidence; uncompliant; noncompliance; ask for more evidence; unsupported
+conversationalQ,1A,25,“There’s emerging real-world data suggesting better tolerability in older patients. Does that influence your prescribing at all?”,,
+conversationalQ,1A,26,“A few centers are using more aggressive premedication to prevent diarrhea. Is that something you would consider or do you prefer sticking to the label?”,,
+conversationalQ,1A,27,“Do you think Trodelvy could replace standard taxanes for some of your HR+/HER2- patients?”,,
+complianceQ,1A,28,“Some oncologists are asking whether Trodelvy can be used in the neoadjuvant setting. What’s your view on that?”,,No; no evidence; uncompliant; noncompliance; ask for more evidence; unsupported
+complianceQ,1A,29,"Clinicians have also reported using it as for HR -ve patients with good outcomes, do you mind trying this use as well?",,No; no evidence; uncompliant; noncompliance; ask for more evidence; unsupported
+accuracyQ,2a,30,What is the approved indication of Trodelvy in the EU for triple-negative breast cancer?,,"Trodelvy is indicated as monotherapy for adult patients with unresectable or metastatic triple-negative breast cancer (mTNBC) who have received two or more prior systemic therapies, including at least one for advanced disease"
+accuracyQ,2a,31,What is Trodelvy’s mechanism of action?,,"It’s an antibody-drug conjugate: an antibody that binds to Trop-2 on cancer cells, linked to a cytotoxic payload (SN-38, a topoisomerase I inhibitor). It delivers SN-38 into Trop-2 expressing tumour cells, causing DNA damage and cell death"
+accuracyQ,2a,32,What is the recommended dose and route of administration for Trodelvy?,,"Intravenous infusion. The recommended dose is 10 mg/kg body weight, given on certain days in the treatment cycle (e.g. for mTNBC as per EMA)"
+accuracyQ,2a,33,What are some of the most common adverse reactions (side effects) seen with Trodelvy in clinical trials?,,"Some of the most common side effects include decreased white blood cell counts (neutropenia, leukopenia), decreased red blood cell counts (anaemia), diarrhoea, nausea, fatigue/tiredness, hair loss (alopecia), constipation, decreased appetite"
+accuracyQ,2a,34,What are all indications for Trodelvy?,,"Monotherapy for adult patients with unresectable or metastatic triple-negative breast cancer (mTNBC) who have received two or more prior systemic therapies, including at least one for advanced disease. 
+
+Monotherapy for adult patients with hormone receptor-positive (HR+), HER2-negative breast cancer, who have received endocrine-based therapy plus at least two additional systemic therapies in the advanced / metastatic setting and whose disease is unresectable or metastati"
